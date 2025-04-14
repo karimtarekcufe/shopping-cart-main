@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "frontend",
+      "cwd": "frontend",
+      "request": "launch",
+      "type": "dart"
+    },
+    {
+      "name": "frontend (profile mode)",
+      "cwd": "frontend",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "profile"
+    },
+    {
+      "name": "frontend (release mode)",
+      "cwd": "frontend",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Haitham/Desktop/node/mini-app-flutter-nodejs/frontend/linux/flutter",
+      "program": "c:/Users/Haitham/Desktop/node/mini-app-flutter-nodejs/frontend/linux/flutter/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
