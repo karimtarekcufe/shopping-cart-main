@@ -1,7 +1,10 @@
+require("dotenv").config();
 const app = require("./app");
 const db = require("./config/db");
 const UserModel = require("./model/user.model");
-const port = 5300;
+const config = require("./config/config");
+const port = 8000;
+
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
